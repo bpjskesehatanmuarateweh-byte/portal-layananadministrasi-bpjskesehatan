@@ -34,16 +34,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Pastikan properti 'berkas' dan 'kanal_layanan' ada dan merupakan array
             const berkas = Array.isArray(service.berkas) ? service.berkas : [];
+            const kelasdaniuran = Array.isArray(service.kelas_dan_iuran) ? service.kelas_dan_iuran : [];
             const kanalLayanan = Array.isArray(service.kanal_layanan) ? service.kanal_layanan : [];
 
             let berkasHtml = berkas.map(item => `<li>${item}</li>`).join('');
+            let kelasHtml = kelasdanIuran.map(item => `<li>${item}</li>`).join('');
             let kanalHtml = kanalLayanan.map(item => `<li>${item}</li>`).join('');
 
             serviceCard.innerHTML = `
                 <h3>${service.jenis_layanan}</h3>
                 <h4>Berkas yang Dibutuhkan:</h4>
                 <ul>${berkasHtml || '<li>Tidak ada berkas yang disebutkan.</li>'}</ul>
-                <h4>Kanal Layanan:</h4>
+                <h4>Kelas dan Iuran:</h4>
+                <ul>${kelasHtml || '<li>Tidak ada kelas dan iuran yang disebutkan.</li>'}</ul>
+                <h4>Kelas dan Iuran:</h4>
                 <ul>${kanalHtml || '<li>Tidak ada kanal layanan yang disebutkan.</li>'}</ul>
             `;
             serviceListElement.appendChild(serviceCard);
@@ -68,6 +72,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (Array.isArray(service.berkas) && service.berkas.some(berkasItem => berkasItem.toLowerCase().includes(searchTerm))) {
                 return true;
             }
+            // Cari di kelas yang dibutuhkan
+            if (Array.isArray(service.kelas_dan_iuran) && service.kelas_dan_iuran.some(berkasItem => berkasItem.toLowerCase().includes(searchTerm))) {
+                return true;
+            }
             // Cari di kanal layanan
             if (Array.isArray(service.kanal_layanan) && service.kanal_layanan.some(kanalItem => kanalItem.toLowerCase().includes(searchTerm))) {
                 return true;
@@ -90,4 +98,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Muat layanan saat halaman pertama kali dimuat
     loadServices();
+
 });
