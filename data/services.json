@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "jenis_layanan": "Pendaftaran Baru PBPU",
+    "jenis_layanan": "Pendaftaran Baru PBPU (Mandiri)",
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
@@ -70,7 +70,7 @@
   },
   {
     "id": 5,
-    "jenis_layanan": "Penambahan anggota keluarga PNS/Prajurit TNI/Polri/Pensiunan/Veteran",
+    "jenis_layanan": "Penambahan Anggota Keluarga PNS/Prajurit TNI/Polri/Pensiunan/Veteran",
     "berkas": [
       "NIK KTP-el",
       "SK yang memuat golongan, pangkat, satker dan gaji atau tunjangan"
@@ -167,7 +167,7 @@
   },
   {
     "id": 11,
-    "jenis_layanan": "Pindah Jenis Kepesertaan dari PBI JKN/PBPU BP Pemda/PPU Nonaktif ke PBPU",
+    "jenis_layanan": "Pindah Jenis Kepesertaan dari PBI JKN/PBPU BP Pemda/PPU Nonaktif ke PBPU (Mandiri)",
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
@@ -236,7 +236,7 @@
   },
   {
     "id": 15,
-    "jenis_layanan": "Perubahan FKTP Prajurit TNI/Polri",
+    "jenis_layanan": "Perubahan FKTP (Fasilitas Kesehatan Tingkat Pertama) Prajurit TNI/Polri",
     "berkas": [
       "NIK KTP-el",
       "Keterangan izin perubahan FKTP dari Satker (hanya bagi anggota TNI/Polri)"
@@ -252,7 +252,7 @@
   },
   {
     "id": 16,
-    "jenis_layanan": "Pendaftaran BP Penyelenggara Negara",
+    "jenis_layanan": "Pendaftaran BP (Bukan Pekerja) Penyelenggara Negara",
     "berkas": [
       "NIK KTP-el",
       "KARIP/SK Pensiun/SKPP"
@@ -267,7 +267,7 @@
   },
   {
     "id": 17,
-    "jenis_layanan": "Penambahan anggota keluarga BP Penyelenggara Negara",
+    "jenis_layanan": "Penambahan anggota keluarga BP (Bukan Pekerja) Penyelenggara Negara",
     "berkas": [
       "NIK KTP-EL",
       "KARIP/SK Pensiun/SKPP"
@@ -283,7 +283,7 @@
   },
   {
     "id": 18,
-    "jenis_layanan": "Perubahan FKTP < 3 bulan",
+    "jenis_layanan": "Perubahan FKTP (Fasilitas Kesehatan Tingkat Pertama) < 3 bulan",
     "berkas": [
       "NIK KTP-el",
       "Surat Keterangan alih Tugas/Pindah Domisili/Tugas Belajar"
@@ -315,7 +315,7 @@
   },
   {
     "id": 20,
-    "jenis_layanan": "Pembaharuan KK (KK Baru/Pisah KK)",
+    "jenis_layanan": "Pembaharuan KK (Kartu Keluarga) (KK Baru/Pisah KK)",
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi segmen PBPU)"
@@ -331,7 +331,7 @@
   },
   {
     "id": 21,
-    "jenis_layanan": "Pelaporan WNI pergi ke LN",
+    "jenis_layanan": "Pelaporan WNI (Warga Negara Indonesia) pergi ke LN (Luar Negeri)",
     "berkas": [
       "Passpor",
       "Surat sponsor/surat tugas/surat keterangan belajar"
@@ -365,7 +365,7 @@
   },
   {
     "id": 23,
-    "jenis_layanan": "Perubahan FKTP",
+    "jenis_layanan": "Perubahan FKTP (Fasilitas Kesehatan Tingkat Pertama)",
     "berkas": [
       "NIK KTP-el"
     ],
@@ -397,12 +397,12 @@
   },
   {
     "id": 25,
-    "jenis_layanan": "Pengaktifan Kembali Status Kepesertaan WNI Kembali dari Luar Negeri",
+    "jenis_layanan": "Pengaktifan Kembali Status Kepesertaan WNI (Warga Negara Indonesia) Kembali dari Luar Negeri",
     "berkas": [
       "NIK KTP-el",
       "Paspor/Visa",
       "Tiket Kepulangan ke Indonesia",
-      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftarautodebit)"
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU (Mandiri) yang belum terdaftar autodebit)"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -443,10 +443,10 @@
   },
   {
     "id": 28,
-    "jenis_layanan": "Pengaktifan Kembali Nomor Pembayaran Iuran yang Telah Lewat Masa Bayar (Update VA PBPU)",
+    "jenis_layanan": "Pengaktifan Kembali Nomor Pembayaran Iuran (virtual Account) yang Telah Lewat Masa Bayar (Update VA PBPU)",
     "berkas": [
       "NIK KTP-el",
-      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftarautodebit)"
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftar autodebit)"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -455,6 +455,21 @@
       "Pandawa 08118165165 (Whatsapp)",
       "BPJS Kesehatan Online (VIOLA)"
     ]
+  },
+  {
+    "id": 29,
+    "jenis_layanan": "Pindah Jenis Kepesertaan dari PBI JKN/PBPU BP Pemda/PPU Nonaktif ke PBPU (Mandiri) Tanpa Masa Tunggu 14 Hari (Langsung Aktif)",
+    "berkas": [
+      "NIK KTP-el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
   }
 
 ]
+
