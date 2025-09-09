@@ -63,7 +63,7 @@
   },
   {
     "id": 4,
-    "jenis_layanan": "Penambahan Anggota Keluarga PBPU",
+    "jenis_layanan": "Penambahan Anggota Keluarga PBPU (Mandiri)",
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
@@ -499,7 +499,7 @@
   },
   {
     "id": 28,
-    "jenis_layanan": "Pengaktifan Kembali Nomor Pembayaran Iuran (virtual Account) yang Telah Lewat Masa Bayar (Update VA PBPU)",
+    "jenis_layanan": "Pengaktifan Kembali Nomor Pembayaran Iuran (virtual Account) yang Telah Lewat Masa Bayar (Update VA PBPU (Mandiri))",
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftar autodebit)"
@@ -533,6 +533,7 @@
     ]
   }
 ]
+
 
 
 
