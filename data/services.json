@@ -29,6 +29,9 @@
       "NIK KTP-el",
       "SK yang memuat golongan, pangkat, satker dan gaji atau tunjangan"
     ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Golongan dan pangkat"
+    ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
       "BPJS Kesehatan Keliling",
@@ -47,6 +50,9 @@
       "Surat Ijin bekerja/berusaha",
       "Izin tinggal sementara (ITAS)/Izin Tinggal Tetap (ITAP)"
     ],
+    "kelas_dan_iuran": [
+      "Kelas dan Iuran Menyesuaikan Jenis Kepesertaan Apa Yang Dipilih"
+    ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
       "BPJS Kesehatan Keliling",
@@ -61,6 +67,9 @@
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+    ],
+    "kelas_dan_iuran": [
+      "Kelas dan Iuran Menyesuaikan Peserta"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -80,6 +89,9 @@
       "NIK KTP-el",
       "SK yang memuat golongan, pangkat, satker dan gaji atau tunjangan"
     ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Golongan dan pangkat"
+    ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
       "BPJS Kesehatan Keliling",
@@ -96,6 +108,9 @@
     "berkas": [
       "NIK KTP-el Ibu Kandung",
       "Surat Keterangan Lahir/akta kelahiran"
+    ],
+    "kelas_dan_iuran": [
+      "Kelas III dan Iuran dibayarkan oleh Pemerintah Pusat"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -114,6 +129,9 @@
       "NIK KTP-el",
       "Surat Keterangan terdaftar Kuliah/bukti pembayaran sekolah terakhir (Anak PPU 1-3 >21 Tahun)"
     ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Golongan dan pangkat"
+    ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
       "BPJS Kesehatan Keliling",
@@ -131,6 +149,9 @@
       "NIK KTP-el",
       "KARIP/SK Pensiun/SKPP"
     ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Golongan dan pangkat"
+    ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
       "BPJS Kesehatan Keliling",
@@ -146,6 +167,9 @@
       "NIK KTP-el",
       "SK yang memuat golongan, pangkat, satker dan gaji/tunjangan"
     ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Golongan dan pangkat"
+    ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
       "BPJS Kesehatan Keliling",
@@ -160,6 +184,9 @@
     "jenis_layanan": "Registrasi Ulang Bayi usia > 3 bulan",
     "berkas": [
       "NIK KTP-el Ibu Kandung"
+    ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Jenis Kepesertaan Penanggung/Peserta"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -234,6 +261,9 @@
     "berkas": [
       "NIK KTP-el",
       "SK yang memuat golongan, pangkat, satker dan gaji/tunjangan"
+    ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Golongan dan Pangkat"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -359,7 +389,12 @@
     "jenis_layanan": "Perubahan Kelas Rawat",
     "berkas": [
       "NIK KTP- el",
-      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftarautodebit)"
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftar autodebit)"
+    ],
+    "kelas_dan_iuran": [
+      "Kelas I = Rp. 150.000/orang/bulan",
+      "Kelas II = Rp. 100.000/orang/bulan",
+      "Kelas III = Rp. 30.000/orang/bulan"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -397,6 +432,11 @@
     "berkas": [
       "NIK KTP-el"
     ],
+    "kelas_dan_iuran": [
+      "Kelas Menyesuaikan Gaji Peserta",
+      "Kelas I > Rp. 4.000.000",
+      "Kelas II < Rp. 4.000.000"
+    ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
       "BPJS Kesehatan Keliling",
@@ -413,6 +453,9 @@
       "Paspor/Visa",
       "Tiket Kepulangan ke Indonesia",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU (Mandiri) yang belum terdaftar autodebit)"
+    ],
+    "kelas_dan_iuran": [
+      "Kelas dan Iuran Menyesuaikan Jenis Kepesertaan apa yang dipilih"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -442,6 +485,9 @@
     "berkas": [
       "NIK KTP-el",
       "Surat pernyataan belum bekerja"
+    ],
+    "kelas_dan_iuran": [
+      "Maksimal Kelas III"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -487,4 +533,5 @@
     ]
   }
 ]
+
 
