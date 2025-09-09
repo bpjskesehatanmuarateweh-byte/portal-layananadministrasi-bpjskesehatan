@@ -1,0 +1,459 @@
+[
+  {
+    "id": 1,
+    "jenis_layanan": "Pendaftaran Baru PBPU",
+    "berkas": [
+      "NIK KTP-el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Aplikasi Mobile JKN",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 2,
+    "jenis_layanan": "Pendaftaran baru PNS/Prajurit TNI/Polri",
+    "berkas": [
+      "NIK KTP-el",
+      "SK yang memuat golongan, pangkat, satker dan gaji atau tunjangan"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 3,
+    "jenis_layanan": "Pendaftaran Baru WNA",
+    "berkas": [
+      "NIK KTP-el (opsional)",
+      "Nomor Rekening tabungan/Nomor ATM",
+      "Surat Ijin bekerja/berusaha",
+      "Izin tinggal sementara (ITAS)/Izin Tinggal Tetap (ITAP)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 4,
+    "jenis_layanan": "Penambahan Anggota Keluarga PBPU",
+    "berkas": [
+      "NIK KTP-el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Aplikasi Mobile JKN",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 5,
+    "jenis_layanan": "Penambahan anggota keluarga PNS/Prajurit TNI/Polri/Pensiunan/Veteran",
+    "berkas": [
+      "NIK KTP-el",
+      "SK yang memuat golongan, pangkat, satker dan gaji atau tunjangan"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 6,
+    "jenis_layanan": "Penambahan Anggota Keluarga PBI APBN (Bayi Baru Lahir)",
+    "berkas": [
+      "NIK KTP-el Ibu Kandung",
+      "Surat Keterangan Lahir/akta kelahiran"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 7,
+    "jenis_layanan": "Pengaktifan Kembali status kepesertaan anak >21 th masih kuliah",
+    "berkas": [
+      "NIK KTP-el",
+      "Surat Keterangan terdaftar Kuliah/bukti pembayaran sekolah terakhir (Anak PPU 1-3 >21 Tahun)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 8,
+    "jenis_layanan": "Pengaktifan kembali ahli waris Pensiunan PN",
+    "berkas": [
+      "NIK KTP-el",
+      "KARIP/SK Pensiun/SKPP"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 9,
+    "jenis_layanan": "Registrasi Ulang (PNS, Prajurit TNI, Polri,Veteran)",
+    "berkas": [
+      "NIK KTP-el",
+      "SK yang memuat golongan, pangkat, satker dan gaji/tunjangan"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 10,
+    "jenis_layayanan": "Registrasi Ulang Bayi usia > 3 bulan",
+    "berkas": [
+      "NIK KTP-el Ibu Kandung"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 11,
+    "jenis_layanan": "Pindah Jenis Kepesertaan dari PBI JKN/PBPU BP Pemda/PPU Nonaktif ke PBPU",
+    "berkas": [
+      "NIK KTP-el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Aplikasi Mobile JKN",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 12,
+    "jenis_layanan": "Perubahan Identitas (NIK, NO KK, Nama, Tanggal Lahir, Jenis Kelamin, Alamat)",
+    "berkas": [
+      "NIK KTP-el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftar autodebit)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Aplikasi Mobile JKN",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 13,
+    "jenis_layanan": "Perubahan Nomor HP",
+    "berkas": [
+      "NIK KTP-el",
+      "No HP",
+      "Email (opsional)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 14,
+    "jenis_layanan": "Perubahan Golongan dan Gaji (PNS/Prajurit TNI/Polri)",
+    "berkas": [
+      "NIK KTP-el",
+      "SK yang memuat golongan, pangkat, satker dan gaji/tunjangan"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 15,
+    "jenis_layanan": "Perubahan FKTP Prajurit TNI/Polri",
+    "berkas": [
+      "NIK KTP-el",
+      "Keterangan izin perubahan FKTP dari Satker (hanya bagi anggota TNI/Polri)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 16,
+    "jenis_layanan": "Pendaftaran BP Penyelenggara Negara",
+    "berkas": [
+      "NIK KTP-el",
+      "KARIP/SK Pensiun/SKPP"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 17,
+    "jenis_layanan": "Penambahan anggota keluarga BP Penyelenggara Negara",
+    "berkas": [
+      "NIK KTP-EL",
+      "KARIP/SK Pensiun/SKPP"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 18,
+    "jenis_layanan": "Perubahan FKTP < 3 bulan",
+    "berkas": [
+      "NIK KTP-el",
+      "Surat Keterangan alih Tugas/Pindah Domisili/Tugas Belajar"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 19,
+    "jenis_layanan": "Pelaporan Peserta Meninggal",
+    "berkas": [
+      "NIK KTP-el",
+      "Akta kematian/Surat Keterangan kematian (untuk keperluan rekon)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 20,
+    "jenis_layanan": "Pembaharuan KK (KK Baru/Pisah KK)",
+    "berkas": [
+      "NIK KTP-el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi segmen PBPU)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 21,
+    "jenis_layanan": "Pelaporan WNI pergi ke LN",
+    "berkas": [
+      "Passpor",
+      "Surat sponsor/surat tugas/surat keterangan belajar"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 22,
+    "jenis_layanan": "Perubahan Kelas Rawat",
+    "berkas": [
+      "NIK KTP- el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftarautodebit)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Aplikasi Mobile JKN",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)",
+      "AMAN JKN"
+    ]
+  },
+  {
+    "id": 23,
+    "jenis_layanan": "Perubahan FKTP",
+    "berkas": [
+      "NIK KTP-el"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "PIPP FKTP/FKRTL",
+      "Care Center 165",
+      "Aplikasi Mobile JKN",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)",
+      "AMAN JKN"
+    ]
+  },
+  {
+    "id": 24,
+    "jenis_layanan": "Penambahan Anggota Keluarga Pegawai Swasta/BUMN/BUMD",
+    "berkas": [
+      "NIK KTP-el"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 25,
+    "jenis_layanan": "Pengaktifan Kembali Status Kepesertaan WNI Kembali dari Luar Negeri",
+    "berkas": [
+      "NIK KTP-el",
+      "Paspor/Visa",
+      "Tiket Kepulangan ke Indonesia",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftarautodebit)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 26,
+    "jenis_layanan": "Pengaktifan Kembali Status Kepesertaan Data Ganda",
+    "berkas": [
+      "NIK KTP-el"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 27,
+    "jenis_layanan": "Pengaktifan Kembali Status Kepesertaan Reaktivasi PHK",
+    "berkas": [
+      "NIK KTP-el",
+      "Surat pernyataan belum bekerja"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  },
+  {
+    "id": 28,
+    "jenis_layanan": "Pengaktifan Kembali Nomor Pembayaran Iuran yang Telah Lewat Masa Bayar (Update VA PBPU)",
+    "berkas": [
+      "NIK KTP-el",
+      "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftarautodebit)"
+    ],
+    "kanal_layanan": [
+      "Kantor Cabang/Kantor Kabupaten",
+      "BPJS Kesehatan Keliling",
+      "Mall Pelayanan Publik",
+      "Pandawa 08118165165 (Whatsapp)",
+      "BPJS Kesehatan Online (VIOLA)"
+    ]
+  }
+]
