@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const kanalLayanan = Array.isArray(service.kanal_layanan) ? service.kanal_layanan : [];
 
             let berkasHtml = berkas.map(item => `<li>${item}</li>`).join('');
-            let kelasHtml = kelasdanIuran.map(item => `<li>${item}</li>`).join('');
+            let kelasHtml = kelasdaniuran.map(item => `<li>${item}</li>`).join('');
             let kanalHtml = kanalLayanan.map(item => `<li>${item}</li>`).join('');
 
             serviceCard.innerHTML = `
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul>${berkasHtml || '<li>Tidak ada berkas yang disebutkan.</li>'}</ul>
                 <h4>Kelas dan Iuran:</h4>
                 <ul>${kelasHtml || '<li>Tidak ada kelas dan iuran yang disebutkan.</li>'}</ul>
-                <h4>Kelas dan Iuran:</h4>
+                <h4>Kanal Layanan:</h4>
                 <ul>${kanalHtml || '<li>Tidak ada kanal layanan yang disebutkan.</li>'}</ul>
             `;
             serviceListElement.appendChild(serviceCard);
@@ -100,3 +100,4 @@ document.addEventListener('DOMContentLoaded', () => {
     loadServices();
 
 });
+
