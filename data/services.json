@@ -152,7 +152,7 @@
   },
   {
     "id": 10,
-    "jenis_layayanan": "Registrasi Ulang Bayi usia > 3 bulan",
+    "jenis_layanan": "Registrasi Ulang Bayi usia > 3 bulan",
     "berkas": [
       "NIK KTP-el Ibu Kandung"
     ],
@@ -456,4 +456,5 @@
       "BPJS Kesehatan Online (VIOLA)"
     ]
   }
+
 ]
