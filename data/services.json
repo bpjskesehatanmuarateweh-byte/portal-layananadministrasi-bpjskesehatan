@@ -6,7 +6,7 @@
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
     ],
-    "Kelas_dan_Iuran": [
+    "kelas_dan_iuran": [
       "Kelas I = Rp. 150.000/orang/bulan",
       "Kelas II = Rp. 100.000/orang/bulan",
       "Kelas III = Rp. 30.000/orang/bulan"
@@ -177,7 +177,7 @@
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
     ],
-    "Kelas_dan_Iuran": [
+    "kelas_dan_iuran": [
       "Kelas I = Rp. 150.000/orang/bulan",
       "Kelas II = Rp. 100.000/orang/bulan",
       "Kelas III = Rp. 30.000/orang/bulan"
@@ -473,7 +473,7 @@
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
     ],
-    "Kelas_dan_Iuran": [
+    "kelas_dan_iuran": [
       "Kelas I = Rp. 150.000/orang/bulan",
       "Kelas II = Rp. 100.000/orang/bulan",
       "Kelas III = Rp. 30.000/orang/bulan"
@@ -486,6 +486,7 @@
       "BPJS Kesehatan Online (VIOLA)"
   }
 ]
+
 
 
 
