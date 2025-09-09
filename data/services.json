@@ -30,7 +30,7 @@
       "SK yang memuat golongan, pangkat, satker dan gaji atau tunjangan"
     ],
     "kelas_dan_iuran": [
-      "Kelas Menyesuaikan Golongan dan pangkat"
+      "Kelas Menyesuaikan Golongan dan Pangkat"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -69,7 +69,7 @@
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
     ],
     "kelas_dan_iuran": [
-      "Kelas dan Iuran Menyesuaikan Peserta"
+      "Kelas dan Iuran Menyesuaikan Peserta Penanggung"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -90,7 +90,7 @@
       "SK yang memuat golongan, pangkat, satker dan gaji atau tunjangan"
     ],
     "kelas_dan_iuran": [
-      "Kelas Menyesuaikan Golongan dan pangkat"
+      "Kelas Menyesuaikan Golongan dan Pangkat"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -130,7 +130,7 @@
       "Surat Keterangan terdaftar Kuliah/bukti pembayaran sekolah terakhir (Anak PPU 1-3 >21 Tahun)"
     ],
     "kelas_dan_iuran": [
-      "Kelas Menyesuaikan Golongan dan pangkat"
+      "Kelas Menyesuaikan Golongan dan Pangkat"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -150,7 +150,7 @@
       "KARIP/SK Pensiun/SKPP"
     ],
     "kelas_dan_iuran": [
-      "Kelas Menyesuaikan Golongan dan pangkat"
+      "Kelas Menyesuaikan Golongan dan Pangkat"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -168,7 +168,7 @@
       "SK yang memuat golongan, pangkat, satker dan gaji/tunjangan"
     ],
     "kelas_dan_iuran": [
-      "Kelas Menyesuaikan Golongan dan pangkat"
+      "Kelas Menyesuaikan Golongan dan Pangkat"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -533,5 +533,6 @@
     ]
   }
 ]
+
 
 
