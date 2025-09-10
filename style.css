@@ -201,4 +201,47 @@ footer {
     .service-grid {
         grid-template-columns: 1fr;
     }
+
+}
+
+/* Kanal Layanan */
+.kanal-layanan ul {
+    list-style-type: none; /* Hilangkan bullet default */
+    padding: 0;
+    margin: 0;
+}
+.kanal-layanan li {
+    margin-bottom: 8px; /* Jarak antar item */
+    font-size: 0.95em; /* Ukuran font sedikit lebih kecil */
+}
+.kanal-layanan a {
+    color: var(--primary-color); /* Warna utama dari variabel CSS */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transisi warna saat hover */
+}
+.kanal-layanan a:hover {
+    color: #0056b3; /* Warna hover lebih gelap */
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+/* Toggle Mobile JKN */
+.mobile-jkn-options {
+    display: none; /* Sembunyikan opsi secara default */
+    margin-top: 5px;
+    padding-left: 20px; /* Indentasi ke kanan */
+    border-left: 2px solid var(--border-color); /* Garis vertikal sebagai pembatas */
+}
+.mobile-jkn-options a {
+    display: block; /* Tampilkan tautan di baris baru */
+    margin-bottom: 5px; /* Jarak antar tautan */
+}
+.mobile-jkn-toggle {
+    cursor: pointer; /* Kursor pointer saat hover */
+    color: var(--secondary-color); /* Warna sekunder dari variabel CSS */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.mobile-jkn-toggle:hover {
+    color: #218838; /* Warna hover hijau lebih gelap */
+    text-decoration: underline;
 }
