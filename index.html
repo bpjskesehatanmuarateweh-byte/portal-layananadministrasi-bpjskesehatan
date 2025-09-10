@@ -5,43 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portal Persyaratan Layanan BPJS Kesehatan</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- Font Awesome untuk ikon (opsional, bisa diganti) -->
+    <!-- Font Awesome untuk ikon -->
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="container">
-            <h1>Portal Persyaratan Layanan Administrasi Kepesertaan BPJS Kesehatan</h1>
-            <nav>
-                <ul>
-                    <li class="search-container">
-                        <div class="search-bar">
-                            <input type="text" id="searchInput" placeholder="Cari layanan..." />
-                            <button id="searchButton">
-                                <i class="fas fa-search"></i> Cari
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
+            <h1>BPJS Kesehatan</h1>
+            <p class="tagline">Portal Persyaratan Administrasi Kepesertaan</p>
         </div>
     </header>
 
+    <!-- Main Content -->
     <main class="container">
         <section id="services">
-            <h2>Daftar Layanan</h2>
-            <div id="serviceList" class="service-grid">
-                <!-- Layanan akan dimuat di sini oleh JavaScript -->
+            <div class="card">
+                <h2><i class="fas fa-clipboard-list"></i> Pilih Jenis Layanan</h2>
+                <p class="subtitle">Silakan pilih jenis layanan di bawah ini untuk melihat persyaratan lengkapnya.</p>
+
+                <div class="dropdown-wrapper">
+                    <select id="serviceDropdown">
+                        <option value="">-- Pilih Layanan --</option>
+                    </select>
+                </div>
+
+                <div id="serviceDetail" class="service-grid" style="margin-top:20px;">
+                    <!-- Detail layanan muncul di sini -->
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 BPJS Kesehatan Kantor Cabang Muara Teweh.</p>
+            <p>&copy; 2025 BPJS Kesehatan Kantor Cabang Muara Teweh</p>
         </div>
     </footer>
 
