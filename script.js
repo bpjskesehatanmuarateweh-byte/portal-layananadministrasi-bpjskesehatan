@@ -4,18 +4,21 @@ document.addEventListener('DOMContentLoaded', () => {
     let allServices = [];
 
     async function loadServices() {
-        try {
-            const response = await fetch('data/services.json'); // langsung ke folder data
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            allServices = await response.json();
-            console.log('Services loaded:', allServices.length);
-            populateDropdown(allServices);
-        } catch (err) {
-            console.error("Gagal memuat services.json:", err);
-            detail.innerHTML = '<p>Data layanan tidak dapat dimuat.</p>';
+        const paths = ['services.json', 'data/services.json'];
+        for (const p of paths) {
+            try {
+                const resp = await fetch(p);
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                allServices = await resp.json();
+                console.log('Loaded services.json from', p);
+                populateDropdown(allServices);
+                return;
+            } catch (err) {
+                console.warn('Failed to load', p, err);
+            }
         }
+        detail.innerHTML = '<p>Maaf, data layanan tidak dapat dimuat saat ini.</p>';
     }
-
 
     function populateDropdown(services) {
         services.forEach(service => {
@@ -115,5 +118,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadServices();
 });
-
-
