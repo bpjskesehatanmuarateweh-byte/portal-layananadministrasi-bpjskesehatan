@@ -350,9 +350,10 @@ header .tagline {
 .service-card ul,
 .service-card li,
 .service-card p {
-    text-align: justify;
+    text-align: left;
 }
 
 .service-card li {
     line-height: 1.6;
 }
+
