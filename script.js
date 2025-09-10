@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let allServices = [];
 
     async function loadServices() {
-        const paths = ['services.json', 'data/services.json'];
+        const paths = ['data/services.json'];
         for (const p of paths) {
             try {
                 const resp = await fetch(p);
@@ -118,3 +118,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadServices();
 });
+
