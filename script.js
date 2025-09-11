@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ${berkasHtml}
             ${kelasHtml}
             ${kanalHtml}
-            <button class="print-btn">🖨️ Cetak Kartu</button>
+            <button class="print-btn">🖨️ Cetak Persayaratan</button>
         `;
         detail.appendChild(card);
 
@@ -208,6 +208,7 @@ function printServiceCard(service) {
     newWindow.document.close();
     newWindow.print();
 }
+
 
 
 
