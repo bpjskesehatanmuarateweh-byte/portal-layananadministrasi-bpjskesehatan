@@ -81,6 +81,21 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         detail.appendChild(card);
     }
+    
+    card.innerHTML = `<h3>${name}</h3>
+        <h4>Berkas yang Dibutuhkan:</h4>
+        ${berkasHtml}
+        ${kelasHtml}
+        ${kanalHtml}
+        <button class="print-btn">🖨️ Cetak Kartu</button>
+    `;
+    detail.appendChild(card);
+    
+    // event tombol cetak
+    card.querySelector('.print-btn').addEventListener('click', () => {
+        printServiceCard(service);
+    });
+
 
     // Event delegation for toggles and preventing default on placeholder links
     document.getElementById('serviceDetail').addEventListener('click', function (e) {
@@ -118,4 +133,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadServices();
 });
+
+// Fungsi Cetak
+function printServiceCard(service) {
+    const name = service.jenis_layanan || service.jenis_layayanan || (`Layanan ${service.id}`);
+    const berkas = Array.isArray(service.berkas) ? service.berkas : [];
+    const kelas = Array.isArray(service.kelas_dan_iuran) ? service.kelas_dan_iuran : [];
+    const kanal = Array.isArray(service.kanal_layanan) ? service.kanal_layanan : [];
+
+    const cardContent = `
+        <div style="font-family: Arial; padding:20px; width:350px; border:2px solid #007bff; border-radius:10px;">
+            <h2 style="color:#007bff; text-align:center;">${name}</h2>
+            <h4>Berkas yang Dibutuhkan:</h4>
+            <ul>${berkas.map(b => `<li>${b}</li>`).join('')}</ul>
+            ${kelas.length ? `<h4>Kelas dan Iuran:</h4><ul>${kelas.map(k => `<li>${k}</li>`).join('')}</ul>` : ''}
+            <h4>Kanal Layanan:</h4>
+            <ul>${kanal.map(k => `<li>${k}</li>`).join('')}</ul>
+        </div>
+    `;
+
+    const newWindow = window.open('', '_blank');
+    newWindow.document.write(`
+        <html>
+        <head><title>Cetak Kartu</title></head>
+        <body>${cardContent}</body>
+        </html>
+    `);
+    newWindow.document.close();
+    newWindow.print();
+}
 
