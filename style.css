@@ -457,3 +457,19 @@ header .tagline {
     font-size: 0.9em;
     color: #555;
 }
+
+.print-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.print-btn:hover {
+    background: #1e7e34;
+}
