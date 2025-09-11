@@ -3,23 +3,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const detail = document.getElementById('serviceDetail');
     let allServices = [];
 
+    // Load services.json
     async function loadServices() {
-        const paths = ['data/services.json'];
-        for (const p of paths) {
-            try {
-                const resp = await fetch(p);
-                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-                allServices = await resp.json();
-                console.log('Loaded services.json from', p);
-                populateDropdown(allServices);
-                return;
-            } catch (err) {
-                console.warn('Failed to load', p, err);
-            }
+        try {
+            const resp = await fetch('data/services.json');
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            allServices = await resp.json();
+            console.log('Loaded services.json');
+            populateDropdown(allServices);
+        } catch (err) {
+            console.error('Gagal memuat data layanan:', err);
+            detail.innerHTML = '<p>Maaf, data layanan tidak dapat dimuat saat ini.</p>';
         }
-        detail.innerHTML = '<p>Maaf, data layanan tidak dapat dimuat saat ini.</p>';
     }
 
+    // Isi dropdown
     function populateDropdown(services) {
         services.forEach(service => {
             const name = service.jenis_layanan || service.jenis_layayanan || (`Layanan ${service.id}`);
@@ -30,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Tampilkan detail layanan
     function displayServiceDetail(service) {
         detail.innerHTML = '';
         const card = document.createElement('div');
@@ -50,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (k.includes('Pandawa')) {
                     kanalHtml += `<li><a href="https://wa.me/628118165165?text=halo" target="_blank" rel="noopener noreferrer">Pandawa (WhatsApp) <span class="link-klik">⇦ Klik di sini</span></a></li>`;
                 } else if (k.toLowerCase().includes('care center')) {
-                    kanalHtml += `<li><a href="tel:021165">Care Center 165 <span class="link-klik"> ⇦ Klik di sini</span></a></li>`;
+                    kanalHtml += `<li><a href="tel:021165">Care Center 165 <span class="link-klik">⇦ Klik di sini</span></a></li>`;
                 } else if (k.includes('Aplikasi Mobile JKN')) {
                     kanalHtml += `<li>
                         <span class="mobile-jkn-toggle" data-service-id="${service.id}">Aplikasi Mobile JKN</span>
@@ -67,37 +66,29 @@ document.addEventListener('DOMContentLoaded', () => {
                     kanalHtml += `<li><span class="kanal-text-normal">${k}</span></li>`;
                 }
             });
-
             kanalHtml += '</ul>';
         } else {
             kanalHtml += '<ul><li>Tidak ada kanal layanan yang disebutkan.</li></ul>';
         }
 
-        card.innerHTML = `<h3>${name}</h3>
+        // Tambahkan tombol cetak
+        card.innerHTML = `
+            <h3>${name}</h3>
             <h4>Berkas yang Dibutuhkan:</h4>
             ${berkasHtml}
             ${kelasHtml}
             ${kanalHtml}
+            <button class="print-btn">🖨️ Cetak Kartu</button>
         `;
         detail.appendChild(card);
+
+        // Event cetak
+        card.querySelector('.print-btn').addEventListener('click', () => {
+            printServiceCard(service);
+        });
     }
-    
-    card.innerHTML = `<h3>${name}</h3>
-        <h4>Berkas yang Dibutuhkan:</h4>
-        ${berkasHtml}
-        ${kelasHtml}
-        ${kanalHtml}
-        <button class="print-btn">🖨️ Cetak Kartu</button>
-    `;
-    detail.appendChild(card);
-    
-    // event tombol cetak
-    card.querySelector('.print-btn').addEventListener('click', () => {
-        printServiceCard(service);
-    });
 
-
-    // Event delegation for toggles and preventing default on placeholder links
+    // Event delegation untuk toggle Mobile JKN
     document.getElementById('serviceDetail').addEventListener('click', function (e) {
         const toggle = e.target.closest('.mobile-jkn-toggle');
         if (toggle) {
@@ -109,14 +100,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             return;
         }
-
-        const anchor = e.target.closest('a[href="javascript:void(0)"], a[href="#"]');
-        if (anchor) {
-            e.preventDefault();
-            return;
-        }
     });
 
+    // Event ketika dropdown berubah
     dropdown.addEventListener('change', () => {
         const val = dropdown.value;
         if (!val) {
@@ -134,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadServices();
 });
 
-// Fungsi Cetak
+// Fungsi Cetak Kartu
 function printServiceCard(service) {
     const name = service.jenis_layanan || service.jenis_layayanan || (`Layanan ${service.id}`);
     const berkas = Array.isArray(service.berkas) ? service.berkas : [];
@@ -162,4 +148,3 @@ function printServiceCard(service) {
     newWindow.document.close();
     newWindow.print();
 }
-
