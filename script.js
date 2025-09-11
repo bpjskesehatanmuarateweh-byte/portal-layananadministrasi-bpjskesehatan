@@ -128,23 +128,85 @@ function printServiceCard(service) {
     const kanal = Array.isArray(service.kanal_layanan) ? service.kanal_layanan : [];
 
     const cardContent = `
-        <div style="font-family: Arial; padding:20px; width:350px; border:2px solid #007bff; border-radius:10px;">
-            <h2 style="color:#007bff; text-align:center;">${name}</h2>
-            <h4>Berkas yang Dibutuhkan:</h4>
-            <ul>${berkas.map(b => `<li>${b}</li>`).join('')}</ul>
-            ${kelas.length ? `<h4>Kelas dan Iuran:</h4><ul>${kelas.map(k => `<li>${k}</li>`).join('')}</ul>` : ''}
-            <h4>Kanal Layanan:</h4>
-            <ul>${kanal.map(k => `<li>${k}</li>`).join('')}</ul>
+        <div class="print-card">
+            <div class="print-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/BPJS_Kesehatan_logo.svg" alt="Logo BPJS" class="logo" />
+                <h2>BPJS Kesehatan</h2>
+                <p>Persyaratan Layanan Administrasi Kepesertaan</p>
+            </div>
+            <div class="print-body">
+                <h3>${name}</h3>
+                <h4>Berkas yang Dibutuhkan:</h4>
+                <ul>${berkas.map(b => `<li>${b}</li>`).join('')}</ul>
+                ${kelas.length ? `<h4>Kelas dan Iuran:</h4><ul>${kelas.map(k => `<li>${k}</li>`).join('')}</ul>` : ''}
+                <h4>Kanal Layanan:</h4>
+                <ul>${kanal.map(k => `<li>${k}</li>`).join('')}</ul>
+            </div>
+            <div class="print-footer">
+                <p>&copy; 2025 BPJS Kesehatan</p>
+            </div>
         </div>
     `;
 
     const newWindow = window.open('', '_blank');
     newWindow.document.write(`
         <html>
-        <head><title>Cetak Kartu</title></head>
+        <head>
+            <title>Cetak Kartu</title>
+            <style>
+                @page { size: A6; margin: 10mm; }
+                body { font-family: Arial, sans-serif; }
+                .print-card {
+                    border: 2px solid #007bff;
+                    border-radius: 10px;
+                    padding: 15px;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                .print-header {
+                    text-align: center;
+                    border-bottom: 2px solid #007bff;
+                    margin-bottom: 10px;
+                    padding-bottom: 5px;
+                }
+                .print-header .logo {
+                    height: 40px;
+                }
+                .print-header h2 {
+                    margin: 5px 0 0;
+                    color: #007bff;
+                }
+                .print-header p {
+                    margin: 0;
+                    font-size: 12px;
+                }
+                .print-body h3 {
+                    color: #007bff;
+                    margin-bottom: 5px;
+                }
+                .print-body h4 {
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+                .print-body ul {
+                    margin: 0 0 10px 20px;
+                    font-size: 13px;
+                }
+                .print-footer {
+                    text-align: center;
+                    font-size: 12px;
+                    margin-top: 10px;
+                    border-top: 1px solid #ccc;
+                    padding-top: 5px;
+                }
+            </style>
+        </head>
         <body>${cardContent}</body>
         </html>
     `);
     newWindow.document.close();
     newWindow.print();
 }
+
+
