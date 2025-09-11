@@ -152,7 +152,7 @@ function printServiceCard(service) {
     newWindow.document.write(`
         <html>
         <head>
-            <title>Cetak Kartu</title>
+            <title>Cetak Persyaratan</title>
             <style>
                 @page { size: A6; margin: 10mm; }
                 body { font-family: Arial, sans-serif; }
@@ -208,5 +208,6 @@ function printServiceCard(service) {
     newWindow.document.close();
     newWindow.print();
 }
+
 
 
