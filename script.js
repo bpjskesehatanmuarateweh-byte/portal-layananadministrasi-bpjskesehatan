@@ -152,51 +152,54 @@ function printServiceCard(service) {
         <head>
             <title>Cetak Persyaratan</title>
             <style>
-                @page { size: A6; margin: 10mm; }
+                @page { size: A6; margin: 8mm; }
                 body { font-family: Arial, sans-serif; }
                 .print-card {
                     border: 2px solid #007bff;
                     border-radius: 10px;
-                    padding: 15px;
+                    padding: 12px;
                     width: 100%;
+                    height: 100%;
                     box-sizing: border-box;
                 }
                 .print-header {
                     text-align: center;
                     border-bottom: 2px solid #007bff;
-                    margin-bottom: 10px;
-                    padding-bottom: 5px;
+                    margin-bottom: 8px;
+                    padding-bottom: 4px;
                 }
                 .print-header .logo {
-                    height: 40px;
+                    height: 35px;
                 }
                 .print-header h2 {
-                    margin: 5px 0 0;
+                    margin: 4px 0 0;
                     color: #007bff;
+                    font-size: 16px;
                 }
                 .print-header p {
                     margin: 0;
-                    font-size: 12px;
+                    font-size: 11px;
                 }
                 .print-body h3 {
                     color: #007bff;
                     margin-bottom: 5px;
-                }
-                .print-body h4 {
-                    margin-top: 10px;
-                    margin-bottom: 5px;
                     font-size: 14px;
                 }
+                .print-body h4 {
+                    margin-top: 6px;
+                    margin-bottom: 3px;
+                    font-size: 12px;
+                }
                 .print-body ul {
-                    margin: 0 0 10px 20px;
-                    font-size: 13px;
+                    margin: 0 0 6px 18px;
+                    font-size: 11px;
                 }
                 .print-footer {
                     text-align: center;
-                    font-size: 12px;
-                    margin-top: 10px;
+                    font-size: 10px;
+                    margin-top: 8px;
                     border-top: 1px solid #ccc;
-                    padding-top: 5px;
+                    padding-top: 3px;
                 }
             </style>
         </head>
@@ -206,6 +209,7 @@ function printServiceCard(service) {
     newWindow.document.close();
     newWindow.print();
 }
+
 
 
 
