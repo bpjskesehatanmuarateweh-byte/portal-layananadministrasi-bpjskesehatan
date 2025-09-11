@@ -135,8 +135,7 @@ function printServiceCard(service) {
         <div class="print-card">
             <div class="print-header">
                 <img src="${bpjsLogoBase64}" alt="Logo BPJS" class="logo" />
-                <h2>BPJS Kesehatan</h2>
-                <p>Persyaratan Layanan Administrasi Kepesertaan</p>
+
             </div>
             <div class="print-body">
                 <h3>${name}</h3>
@@ -230,5 +229,6 @@ function printServiceCard(service) {
         newWindow.print();
     };
 }
+
 
 
