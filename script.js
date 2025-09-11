@@ -121,16 +121,22 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Fungsi Cetak Kartu
+// Fungsi Cetak Kartu (A6 + Logo BPJS Base64)
 function printServiceCard(service) {
     const name = service.jenis_layanan || service.jenis_layayanan || (`Layanan ${service.id}`);
     const berkas = Array.isArray(service.berkas) ? service.berkas : [];
     const kelas = Array.isArray(service.kelas_dan_iuran) ? service.kelas_dan_iuran : [];
     const kanal = Array.isArray(service.kanal_layanan) ? service.kanal_layanan : [];
 
+    // ✅ Logo BPJS versi Base64 (dari SVG link Wikipedia)
+    const bpjsLogoBase64 = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODAgMTAwIj48cGF0aCBmaWxsPSIjMDA3YmZmIiBkPSJNMTg5LjcgMEM4NS4xIDAgMCAyMi40IDAgNTAuM2MwIDI3LjkgODUuMSA1MC4zIDE4OS43IDUwLjNzMTg5LjctMjIuNCAxODkuNy01MC4zQzM3OS40IDIyLjQgMjk0LjQgMCAxODkuNyAweiIvPjwvc3ZnPg==`;
+
     const cardContent = `
         <div class="print-card">
             <div class="print-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/BPJS_Kesehatan_logo.svg" alt="Logo BPJS" class="logo" />
+                <img src="${bpjsLogoBase64}" alt="Logo BPJS" class="logo" />
+                <h2>BPJS Kesehatan</h2>
+                <p>Persyaratan Layanan Administrasi Kepesertaan</p>
             </div>
             <div class="print-body">
                 <h3>${name}</h3>
@@ -150,10 +156,15 @@ function printServiceCard(service) {
     newWindow.document.write(`
         <html>
         <head>
-            <title>Cetak Persyaratan</title>
+            <title>Cetak Kartu</title>
             <style>
                 @page { size: A6; margin: 8mm; }
-                body { font-family: Arial, sans-serif; }
+                html, body {
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    font-family: Arial, sans-serif;
+                }
                 .print-card {
                     border: 2px solid #007bff;
                     border-radius: 10px;
@@ -161,6 +172,9 @@ function printServiceCard(service) {
                     width: 100%;
                     height: 100%;
                     box-sizing: border-box;
+
+                    display: flex;
+                    flex-direction: column;
                 }
                 .print-header {
                     text-align: center;
@@ -172,7 +186,6 @@ function printServiceCard(service) {
                     height: 35px;
                 }
                 .print-header h2 {
-                    text-align: center;
                     margin: 4px 0 0;
                     color: #007bff;
                     font-size: 16px;
@@ -181,10 +194,14 @@ function printServiceCard(service) {
                     margin: 0;
                     font-size: 11px;
                 }
+                .print-body {
+                    flex: 1;
+                }
                 .print-body h3 {
                     color: #007bff;
                     margin-bottom: 5px;
                     font-size: 14px;
+                    text-align: center;
                 }
                 .print-body h4 {
                     margin-top: 6px;
@@ -200,7 +217,7 @@ function printServiceCard(service) {
                     font-size: 10px;
                     border-top: 1px solid #ccc;
                     padding-top: 3px;
-                    margin-top: auto; /* paksa tetap di bawah */
+                    margin-top: auto;
                 }
             </style>
         </head>
@@ -208,16 +225,8 @@ function printServiceCard(service) {
         </html>
     `);
     newWindow.document.close();
-    newWindow.print();
+    newWindow.onload = () => {
+        newWindow.focus();
+        newWindow.print();
+    };
 }
-
-
-
-
-
-
-
-
-
-
-
