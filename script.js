@@ -130,7 +130,7 @@ function printServiceCard(service) {
     const cardContent = `
         <div class="print-card">
             <div class="print-header">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/BPJS_Kesehatan_logo.svg" alt="Logo BPJS" class="logo" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/BPJS_Kesehatan_logo.svg" alt="Logo BPJS" class="logo" />
                 <h2>BPJS Kesehatan</h2>
                 <p>Persyaratan Layanan Administrasi Kepesertaan</p>
             </div>
@@ -208,6 +208,7 @@ function printServiceCard(service) {
     newWindow.document.close();
     newWindow.print();
 }
+
 
 
 
