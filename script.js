@@ -172,6 +172,7 @@ function printServiceCard(service) {
                     height: 35px;
                 }
                 .print-header h2 {
+                    text-align: center;
                     margin: 4px 0 0;
                     color: #007bff;
                     font-size: 16px;
@@ -197,9 +198,9 @@ function printServiceCard(service) {
                 .print-footer {
                     text-align: center;
                     font-size: 10px;
-                    margin-top: 8px;
                     border-top: 1px solid #ccc;
                     padding-top: 3px;
+                    margin-top: auto; /* paksa tetap di bawah */
                 }
             </style>
         </head>
@@ -209,6 +210,7 @@ function printServiceCard(service) {
     newWindow.document.close();
     newWindow.print();
 }
+
 
 
 
