@@ -5,6 +5,7 @@
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kelas_dan_iuran": [
       "Kelas I = Rp. 150.000/orang/bulan",
@@ -49,6 +50,7 @@
       "Nomor Rekening tabungan/Nomor ATM",
       "Surat Ijin bekerja/berusaha",
       "Izin tinggal sementara (ITAS)/Izin Tinggal Tetap (ITAP)"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kelas_dan_iuran": [
       "Kelas dan Iuran Menyesuaikan Jenis Kepesertaan Apa Yang Dipilih"
@@ -67,6 +69,7 @@
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kelas_dan_iuran": [
       "Kelas dan Iuran Menyesuaikan Peserta Penanggung"
@@ -144,7 +147,7 @@
   },
   {
     "id": 8,
-    "jenis_layanan": "Pengaktifan kembali ahli waris Pensiunan PN",
+    "jenis_layanan": "Pengaktifan kembali ahli waris Pensiunan Pegawai Negeri",
     "berkas": [
       "NIK KTP-el",
       "KARIP/SK Pensiun/SKPP"
@@ -162,7 +165,7 @@
   },
   {
     "id": 9,
-    "jenis_layanan": "Registrasi Ulang (PNS, Prajurit TNI, Polri,Veteran)",
+    "jenis_layanan": "Registrasi Ulang (PNS, Prajurit TNI, Polri, Veteran)",
     "berkas": [
       "NIK KTP-el",
       "SK yang memuat golongan, pangkat, satker dan gaji/tunjangan"
@@ -203,6 +206,7 @@
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kelas_dan_iuran": [
       "Kelas I = Rp. 150.000/orang/bulan",
@@ -226,6 +230,7 @@
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftar autodebit)"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -360,6 +365,7 @@
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi segmen PBPU)"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -393,6 +399,7 @@
     "berkas": [
       "NIK KTP- el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftar autodebit)"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kelas_dan_iuran": [
       "Kelas I = Rp. 150.000/orang/bulan",
@@ -456,6 +463,7 @@
       "Paspor/Visa",
       "Tiket Kepulangan ke Indonesia",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU (Mandiri) yang belum terdaftar autodebit)"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kelas_dan_iuran": [
       "Kelas dan Iuran Menyesuaikan Jenis Kepesertaan apa yang dipilih"
@@ -506,6 +514,7 @@
     "berkas": [
       "NIK KTP-el",
       "Nomor Rekening tabungan/Nomor ATM BCA/BNI/BRI/BTN/Mandiri (bagi PBPU yang belum terdaftar autodebit)"
+      "Materai Rp. 10.000,- apabila Peserta ingin mengurus Autodebit di Kantor Cabang (Form Autodebit Manual)"
     ],
     "kanal_layanan": [
       "Kantor Cabang/Kantor Kabupaten",
@@ -536,6 +545,7 @@
     ]
   }
 ]
+
 
 
 
